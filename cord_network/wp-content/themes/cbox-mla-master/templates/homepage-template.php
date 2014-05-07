@@ -24,10 +24,9 @@
 		<div id="flex-slider-wrap-full" class="column ten">
 			<!-- load template for the slider-->
 			<!-- The below code allows Smart Slider 2 to be styled, instead of the default (and disfunctional) CBOX slider -->
-				<?php 
-				echo do_shortcode('[smartslider2 slider="1"]');
-				?>
-			<!-- end -->
+			<?php 
+			echo do_shortcode('[smartslider2 slider="3"]');
+			?>			<!-- end -->
 		</div>
 	
 		<div id="homepage-sidebar-right" class="column six">
