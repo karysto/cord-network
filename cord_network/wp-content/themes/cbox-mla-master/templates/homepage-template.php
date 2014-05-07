@@ -23,12 +23,11 @@
 	<div id="top-homepage" class="row">
 		<div id="flex-slider-wrap-full" class="column ten">
 			<!-- load template for the slider-->
-			<!-- The below code allows Smart Slider 2 to be styled, instead of the default (and disfunctional) CBOX slider -->
-			<?php 
-			echo do_shortcode('[smartslider2 slider="3"]');
-			?>			<!-- end -->
-		</div>
-	
+			<?php
+				infinity_load_template( 'engine/includes/feature-slider/template.php' );
+			?>
+			<!-- end -->
+		</div>	
 		<div id="homepage-sidebar-right" class="column six">
 			<div id="homepage-sidebar">
 		        <?php
@@ -36,7 +35,6 @@
 		        ?>
 			</div>
 		</div>
-	
 	</div>
     <?php
         do_action( 'open_content' );
@@ -64,7 +62,7 @@
 	</div>      
 
  
-    
+     
 	<div class="homepage-widgets row">
 	    <div id="homepage-widget-left" class="column five homepage-widget">         
 	            <?php
