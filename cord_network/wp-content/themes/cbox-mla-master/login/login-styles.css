@@ -1,7 +1,10 @@
+
+/* Styles the login background */
 body.login {
 	background: #FEFEFE;
 }
 
+/* Styles the login logo */
 .login h1 a {
 	background-image: url('../login/CORD-LogoRed.png');
 	background-size: 300px 72px;
@@ -10,9 +13,10 @@ body.login {
 }
 
 #login {
-padding: 30px 0 0;
+	padding: 30px 0 0;
 }
 
+/* Styles the login form */
 .login form {
 	margin-left: auto;
 	margin-right: auto;
@@ -29,18 +33,19 @@ padding: 30px 0 0;
 	line-height: 26px;
 }
 
+/* Styles the login button in its different states */
 .login .button-primary {
-width: 120px;
-float:right;
-background-color:#FF8B00 !important;
-color: #FAFAFA;
+	width: 120px;
+	float:right;
+	background-color:#FF8B00 !important;
+	color: #FAFAFA;
 }
 .login .button-primary:hover {
-background-color:#FF8B00 !important;
-color: #666699;
+	background-color:#FF8B00 !important;
+	color: #666699;
 }
 
 .login .button-primary:active {
-background-color:#FF8B00 !important;
-color: #FFF;
+	background-color:#FF8B00 !important;
+	color: #FFF;
 }
