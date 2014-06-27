@@ -509,17 +509,22 @@ float: right;
     float: right;
     margin: 5px 0 0 0;
 }
-.base-menu li li a span { padding: 0; color: #BBB; }
+
+/* Controls li:hover */
+.base-menu li li a span { padding: 0; color: #4A4A4A;}
 .base-menu ul li.sfHover li a,
 .base-menu ul li.sfHover li a:hover,
 .base-menu ul li.sfHover li a span:hover {
-color: #DDD;
+color: red; /* Use cord red here */
 }
+
 /*  Make sub menus appear */
 .base-menu ul li:hover ul,
 .base-menu ul li.sfHover ul {
     top: 34px; /* match top ul list item height */
+    background-color:  #FAFAFA;
     z-index: 99;
+    border-radius: 3px;
 }
 /* Hide all subs subs (4 levels deep) */
 .base-menu ul li:hover li ul,
